@@ -22,12 +22,12 @@ p {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: lime;
     font-weight: bold;
 }
 
 header {
-    background: rgb(109, 109, 109);
+    background: black;
     color: white;
     height: 15vh;
     display: flex;
@@ -39,9 +39,18 @@ header {
     width: 90vw;
 }
 
+.logo {
+    width: 15vh;
+}
+
+.logo img {
+    width: 100%;
+    max-height: 100%;
+}
+
 footer {
-    background: grey;
-    color: black;
+    background: black;
+    color: white;
     height: 15vh;
     text-align: center;
     width: 100vw;
@@ -73,7 +82,7 @@ main {
     grid-column-start: 4;
     grid-column-end: 11;
     padding: 10%;
-    background: pink;
+    background: white;
     color: black;
 }
 
@@ -81,15 +90,16 @@ main {
     grid-column-start: 1;
     grid-column-end: 7;
     padding: 10%;
-    background: white;
+    background: grey;
     color: black;
 }
 
 .colMR {
     grid-column-start: 7;
     grid-column-end: 11;
-    background: purple;
+    background: white;
     padding: 10%;
+    padding-right: 12%;
 }
 
 .floating-button {
@@ -106,13 +116,26 @@ main {
 .floating-navbar {
     position: fixed;
     bottom: 50vh;
-    right: 10vh;
+    right: 2vw;
 }
 
 .floating-navbar ul {
     list-style: none;
 }
 
-.floating-navbar li:hover {
-    background: black;
+.floating-navbar ul li{
+    width: 3vw;
+    height: 3vw;
+}
+
+.emptyO {
+    width: 3vw;
+    height: 3vw;
+    background: url("./img/oEmpty.png");
+    background-size: cover;
+}
+
+.emptyO:hover {
+    background: url("./img/oFull.png");
+    background-size: cover;
 }
