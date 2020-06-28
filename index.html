@@ -8,19 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="title" id="title">
             <h1>Kajetan Pynka - portfolio</h1>
         </div>
-        <div class="link">
-            <a target="_blank" href="https://www.github.com/KyattPL"><img src="./img/github.png" alt="A github logo"></a>
+        <div>
+            <a target="_blank" href="https://www.github.com/KyattPL"><img src="./img/github.png" alt="A github logo" width="100px"></a>
         </div>
     </header>
     <main>
-        <div class="col1">
+        <div class="colStart">
         </div>
-        <div class="col2">
-            <p>These are my skills:</p>
+        <div class="colEnd">
+            <h2 class="subheading">My skills:</h2>
             <ul>
                 <li>Python</li>
                 <li>Java</li>
@@ -33,18 +33,32 @@
                 <li>And many more!</li>
             </ul>
         </div>
-        <div class="col3">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos impedit aperiam voluptates repellat vitae voluptate praesentium voluptatum deserunt illum quam, iusto illo ullam alias! Iusto maxime fugit voluptates dolor est. Cumque dignissimos ullam quidem voluptatum ipsam laboriosam nihil dolorem hic?</p>
+        <div class="colML" id="pythonCol">
+            <h2 class="subheading">Python projects</h2>
+            <p>I've done many projects in Python programming language (trust me please).</p>
         </div>
-        <div class="col4">
+        <div class="colMR">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi consequuntur dolores repellendus quibusdam aliquid eius aspernatur, fugit, beatae, fuga dolor. Maxime, incidunt ratione aspernatur, obcaecati dolorum eius optio voluptatum in, quod dolores saepe error? Modi dicta eaque a provident!</p>
         </div>
+        <div class="colStart" id="rustCol">
+
+        </div>
+        <div class="colEnd">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ratione?</p>
+        </div>
     </main>
+    <div class="floating-navbar">
+        <ul>
+            <li><a href="#header">O</a></li>
+            <li><a href="#pythonCol">O</a></li>
+            <li><a href="#rustCol">O</a></li>
+        </ul>
+    </div>
     <div class="floating-button">
         <a href="#title"><img src="./img/up.png" alt="back up"></a>
     </div>
     <footer>
-        <p>Make sure to check out my github page!</p>
+        <p>Make sure to check out my <a target="_blank" href="https://www.github.com/KyattPL">github</a> page!</p>
         <p>Kajetan Pynka Copyright&copy;2020</p>
     </footer>
 </body>
