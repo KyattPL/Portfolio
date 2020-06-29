@@ -73,7 +73,7 @@ main {
     grid-column-start: 1;
     grid-column-end: 4;
     color: white;
-    background-image: url("./img/photo.jpeg");
+    background-image: url("./img/photo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -82,16 +82,19 @@ main {
     grid-column-start: 4;
     grid-column-end: 11;
     padding: 10%;
-    background: white;
+    background: url("./img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: black;
+    border-left: 3px solid black;
 }
 
 .colML {
     grid-column-start: 1;
     grid-column-end: 7;
     padding: 10%;
-    background: grey;
-    color: black;
+    background: black;
+    color: white;
 }
 
 .colMR {
@@ -100,22 +103,13 @@ main {
     background: white;
     padding: 10%;
     padding-right: 12%;
-}
-
-.floating-button {
-    position: fixed;
-    bottom: 5vh;
-    right: 10vh;
-}
-
-.floating-button img {
-    width: 5vh;
-    height: 5vh;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 .floating-navbar {
     position: fixed;
-    bottom: 50vh;
+    bottom: 40vh;
     right: 2vw;
 }
 
